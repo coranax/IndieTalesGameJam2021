@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"M:/VSProjects/TextGame2/Content/button.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/button.xnb","TextureProcessor","Texture2DContent",173,8277,0.1710961
+"M:/VSProjects/TextGame2/Content/File.spritefont","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21538,0.2329141
