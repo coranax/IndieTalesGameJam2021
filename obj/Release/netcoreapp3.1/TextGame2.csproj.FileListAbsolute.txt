@@ -13,7 +13,6 @@ M:\VSProjects\TextGame2\bin\Release\netcoreapp3.1\Content\Sprites\title.xnb
 M:\VSProjects\TextGame2\bin\Release\netcoreapp3.1\Content\Sprites\uiSheet.xnb
 M:\VSProjects\TextGame2\bin\Release\netcoreapp3.1\Content\Sprites\xButton.xnb
 M:\VSProjects\TextGame2\bin\Release\netcoreapp3.1\Content\title.xnb
-M:\VSProjects\TextGame2\bin\Release\netcoreapp3.1\Ink\longstory.json
 M:\VSProjects\TextGame2\bin\Release\netcoreapp3.1\Ink\story.json
 M:\VSProjects\TextGame2\bin\Release\netcoreapp3.1\TextGame2.exe
 M:\VSProjects\TextGame2\bin\Release\netcoreapp3.1\TextGame2.deps.json
