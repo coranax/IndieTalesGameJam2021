@@ -1,10 +1,11 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "M:/VSProjects/TextGame2/Content/File.spritefont","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/font.xnb","FontDescriptionProcessor","SpriteFontContent",1999,21539,0.2852315
 "M:/VSProjects/TextGame2/Content/Sprites/bigButton.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/bigButton.xnb","TextureProcessor","Texture2DContent",369,89173,0.1574211
+"M:/VSProjects/TextGame2/Content/Sprites/catIcon.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/catIcon.xnb","TextureProcessor","Texture2DContent",2408,59621,0.1760416
 "M:/VSProjects/TextGame2/Content/Sprites/credits.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/credits.xnb","TextureProcessor","Texture2DContent",8230,1920085,0.2047965
 "M:/VSProjects/TextGame2/Content/Sprites/inventorySheet.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/inventorySheet.xnb","TextureProcessor","Texture2DContent",9845,285685,0.1473222
 "M:/VSProjects/TextGame2/Content/Sprites/littleButton.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/littleButton.xnb","TextureProcessor","Texture2DContent",290,21589,0.0035676
 "M:/VSProjects/TextGame2/Content/Sprites/map.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/map.xnb","TextureProcessor","Texture2DContent",7786,1945685,0.0558413
 "M:/VSProjects/TextGame2/Content/Sprites/title.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/title.xnb","TextureProcessor","Texture2DContent",4476,1920085,0.1980809
-"M:/VSProjects/TextGame2/Content/Sprites/uiSheet.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/uiSheet.xnb","TextureProcessor","Texture2DContent",11738,3891285,0.2776936
+"M:/VSProjects/TextGame2/Content/Sprites/uiSheet.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/uiSheet.xnb","TextureProcessor","Texture2DContent",12599,3891285,0.1259293
 "M:/VSProjects/TextGame2/Content/Sprites/xButton.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/Sprites/xButton.xnb","TextureProcessor","Texture2DContent",283,2789,0.0012683

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
+using TextGame2.GameStory;
 
 namespace TextGame2
 {
@@ -42,6 +43,9 @@ namespace TextGame2
         // ink
         private static string _inkJson;
         private InkStory story;
+
+        // items
+        private Items items;
 
         // list of ui components
         private List<UIComponent> _uiComponents;
@@ -92,6 +96,9 @@ namespace TextGame2
 
             // ink story
             story = new InkStory(_inkJson, _font);
+
+            // items
+            items = new Items(_itemTexture);
 
             #region buttons
 
@@ -200,11 +207,17 @@ namespace TextGame2
 
         private void StartButton_Click(object sender, EventArgs e)
         {
+            story.ResetStory();
+
             if (gameState == GameState.Title)
             {
                 gameState = GameState.Play;
                 story.LoopStory();
+            } else if (gameState == GameState.Credits)
+            {
+                gameState = GameState.Title;
             }
+
             Trace.WriteLine("Button START Pressed");
         }
 
@@ -243,7 +256,7 @@ namespace TextGame2
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            if (story.getHasStoryEnded())
+            if (story.GetHasStoryEnded())
                 gameState = GameState.Credits;
 
             // update ui components
@@ -267,8 +280,8 @@ namespace TextGame2
                 // draw title screen
                 _spriteBatch.Draw(_titleTexture, Vector2.Zero, new Rectangle(0, 0, gameWidth, gameHeight), Color.White);
 
-                // draw start button
-                startButton.Draw(gameTime, _spriteBatch);
+                // change start button text
+                startButton.Text = "Start!";
             }
 
             if (gameState == GameState.Play || gameState == GameState.CheckMap)
@@ -276,6 +289,9 @@ namespace TextGame2
                 // draw ui and cat icon
                 _spriteBatch.Draw(_uiTexture, Vector2.Zero, new Rectangle(800, 0, gameWidth, gameHeight), Color.White);
                 _spriteBatch.Draw(_catIconTexture, new Vector2(35, 451), new Rectangle(0, 0, 122, 122), Color.White);
+
+                // draw items
+                items.Draw(gameTime, _spriteBatch);
 
                 // draw map button
                 mapButton.Draw(gameTime, _spriteBatch);
@@ -326,6 +342,15 @@ namespace TextGame2
             if (gameState == GameState.Credits)
             {
                 _spriteBatch.Draw(_creditsTexture, Vector2.Zero, new Rectangle(0, 0, gameWidth, gameHeight), Color.White);
+
+                // change start button text
+                startButton.Text = "Start Over!";
+            }
+
+            // draw start/restart button
+            if (gameState == GameState.Title || gameState == GameState.Credits)
+            {
+                startButton.Draw(gameTime, _spriteBatch);
             }
 
             // always draw close button

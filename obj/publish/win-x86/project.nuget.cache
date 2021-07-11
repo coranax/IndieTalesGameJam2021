@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+R+g7TUnVvE7aMI6F4nSZjdD2K6QRliiBxBgpkScGP9txSvOOyjQI3D/1OiuJDZNAqL17Kpe8loECZofV7eJDA==",
+  "success": true,
+  "projectFilePath": "M:\\VSProjects\\TextGame2\\TextGame2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Caitlyn\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Caitlyn\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Caitlyn\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.16\\microsoft.netcore.app.runtime.win-x86.3.1.16.nupkg.sha512",
+    "C:\\Users\\Caitlyn\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.16\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.16.nupkg.sha512",
+    "C:\\Users\\Caitlyn\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.16\\microsoft.aspnetcore.app.runtime.win-x86.3.1.16.nupkg.sha512"
+  ],
+  "logs": []
+}

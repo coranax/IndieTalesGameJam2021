@@ -55,7 +55,7 @@ namespace TextGame2
             {
                 Font = _font,
                 Color = Color.Black,
-                Position = new Vector2(32, 316), // for testing only
+                Position = new Vector2(32, 316), // draw position for testing only
             };
         }
 
@@ -104,18 +104,24 @@ namespace TextGame2
 
         public void LoopStory()
         {
-            // reset values
             //_storyText = ""; reset this in SetChoice()
+
+            // reset choice values
             _choiceText = "";
             _currentChoice.NumOfChoices = 0;
 
             // parse story text
             if (_inkStory.canContinue)
             {
+                // run text
                 _storyText += WrapText(_inkStory.Continue(), _currentStory.Font, _currentStory.MaxLineWidth) + "\n";
+
+                // parse tags
+                ParseTagsIntoItem();
             } else if (!_inkStory.canContinue && (_inkStory.currentChoices.Count == 0))
             {
-                setHasStoryEnded(true);
+                // end of story
+                SetHasStoryEnded(true);
                 Trace.WriteLine("YOU HAVE REACHED THE END...!");
             }
             
@@ -124,6 +130,7 @@ namespace TextGame2
             {
                 for (int i = 0; i < _inkStory.currentChoices.Count; ++i)
                 {
+                    // run through each choice
                     Choice choice = _inkStory.currentChoices[i];
                     _choiceText += "Choice " + (i + 1) + ". " + choice.text + "\n";
                     _currentChoice.NumOfChoices++;
@@ -133,11 +140,12 @@ namespace TextGame2
             _currentChoice.SetChoiceText(_choiceText);
         }
 
-        public int GetNumberOfChoices() // simplify this using _inkStory.currentChoices.Count?
+        public int GetNumberOfChoices() // simplify this using _inkStory.currentChoices.Count todo?
         {
             return _currentChoice.NumOfChoices;
         }
 
+        // called by buttons
         public void SetChoice(int choice)
         {
             switch (choice)
@@ -162,6 +170,7 @@ namespace TextGame2
             LoopStory();
         }
 
+        // used to populate the text on choice buttons
         public string GetChoiceAtIndex(int num)
         {
             List<string> list = new List<string>();
@@ -179,32 +188,51 @@ namespace TextGame2
             }
         }
 
-        public void setHasStoryEnded(bool state)
+        // for ending and resetting the story
+        public void SetHasStoryEnded(bool state)
         {
             _hasStoryEnded = state;
         }
 
-        public bool getHasStoryEnded()
+        public bool GetHasStoryEnded()
         {
             return _hasStoryEnded;
         }
 
-        public void ParseTags()
+        // parse tags and send to items class
+        public void ParseTagsIntoItem()
         {
-            // todo
+            if (_inkStory.currentTags.Count > 0)
+            {
+                // grab the first tag in list, this is an item
+                string tag = _inkStory.currentTags[0];
+
+                // add to items list
+                Items.AddItemToList(tag);
+            }
+        }
+
+        public void ResetStory()
+        {
+            SetHasStoryEnded(false);
+
+            _storyText = "";
+            _choiceText = "";
+            _currentStory.SetStoryText("");
+            _currentChoice.SetChoiceText("");
+
+            Items.EmptyItemList();
+
+            _inkStory.ResetState();
         }
 
         public virtual void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             
             _currentStory.Draw(gameTime, spriteBatch);
-            //_currentChoice.Draw(gameTime, spriteBatch);
+            //_currentChoice.Draw(gameTime, spriteBatch); // keep for testing
         }
 
-/*        public virtual void Update(GameTime gameTime)
-        {
-            
-        }*/ //todo do i need this
 
         #endregion
 

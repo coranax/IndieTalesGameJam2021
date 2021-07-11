@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>M:/VSProjects/TextGame2/Content/Sprites/catIcon.png</SourceFile>
-  <SourceTime>2021-07-11T10:13:42.9547001-04:00</SourceTime>
+  <SourceTime>2021-07-11T16:59:18.7717961-04:00</SourceTime>
   <DestFile>M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/catIcon.xnb</DestFile>
-  <DestTime>2021-07-11T10:25:09.3693958-04:00</DestTime>
+  <DestTime>2021-07-11T17:07:48.0392494-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

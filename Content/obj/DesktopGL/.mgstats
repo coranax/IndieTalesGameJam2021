@@ -1,11 +1,11 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"M:/VSProjects/TextGame2/Content/File.spritefont","M:/VSProjects/TextGame2/Content/bin/DesktopGL/font.xnb","FontDescriptionProcessor","SpriteFontContent",1999,21539,0.2200818
-"M:/VSProjects/TextGame2/Content/Sprites/bigButton.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/bigButton.xnb","TextureProcessor","Texture2DContent",369,89173,0.0109395
-"M:/VSProjects/TextGame2/Content/Sprites/catIcon.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/catIcon.xnb","TextureProcessor","Texture2DContent",1566,59621,0.00306
-"M:/VSProjects/TextGame2/Content/Sprites/credits.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/credits.xnb","TextureProcessor","Texture2DContent",8230,1920085,0.0689529
-"M:/VSProjects/TextGame2/Content/Sprites/inventorySheet.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/inventorySheet.xnb","TextureProcessor","Texture2DContent",9845,285685,0.0123902
-"M:/VSProjects/TextGame2/Content/Sprites/littleButton.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/littleButton.xnb","TextureProcessor","Texture2DContent",290,21589,0.0030894
-"M:/VSProjects/TextGame2/Content/Sprites/map.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/map.xnb","TextureProcessor","Texture2DContent",7786,1945685,0.0581647
-"M:/VSProjects/TextGame2/Content/Sprites/title.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/title.xnb","TextureProcessor","Texture2DContent",4476,1920085,0.1949316
-"M:/VSProjects/TextGame2/Content/Sprites/uiSheet.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/uiSheet.xnb","TextureProcessor","Texture2DContent",11738,3891285,0.1107406
-"M:/VSProjects/TextGame2/Content/Sprites/xButton.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/xButton.xnb","TextureProcessor","Texture2DContent",283,2789,0.0027715
+"M:/VSProjects/TextGame2/Content/File.spritefont","M:/VSProjects/TextGame2/Content/bin/DesktopGL/font.xnb","FontDescriptionProcessor","SpriteFontContent",1999,21539,0.3362388
+"M:/VSProjects/TextGame2/Content/Sprites/bigButton.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/bigButton.xnb","TextureProcessor","Texture2DContent",369,89173,0.2151425
+"M:/VSProjects/TextGame2/Content/Sprites/catIcon.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/catIcon.xnb","TextureProcessor","Texture2DContent",2408,59621,0.0054246
+"M:/VSProjects/TextGame2/Content/Sprites/credits.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/credits.xnb","TextureProcessor","Texture2DContent",8230,1920085,0.0674102
+"M:/VSProjects/TextGame2/Content/Sprites/inventorySheet.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/inventorySheet.xnb","TextureProcessor","Texture2DContent",9845,285685,0.0169254
+"M:/VSProjects/TextGame2/Content/Sprites/littleButton.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/littleButton.xnb","TextureProcessor","Texture2DContent",290,21589,0.0089844
+"M:/VSProjects/TextGame2/Content/Sprites/map.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/map.xnb","TextureProcessor","Texture2DContent",7786,1945685,0.0713502
+"M:/VSProjects/TextGame2/Content/Sprites/title.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/title.xnb","TextureProcessor","Texture2DContent",4476,1920085,0.0652126
+"M:/VSProjects/TextGame2/Content/Sprites/uiSheet.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/uiSheet.xnb","TextureProcessor","Texture2DContent",12599,3891285,0.1332355
+"M:/VSProjects/TextGame2/Content/Sprites/xButton.png","M:/VSProjects/TextGame2/Content/bin/DesktopGL/Sprites/xButton.xnb","TextureProcessor","Texture2DContent",283,2789,0.0120348

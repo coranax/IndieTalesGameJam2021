@@ -26,7 +26,6 @@ M:\VSProjects\TextGame2\obj\Debug\netcoreapp3.1\TextGame2.dll
 M:\VSProjects\TextGame2\obj\Debug\netcoreapp3.1\TextGame2.pdb
 M:\VSProjects\TextGame2\obj\Debug\netcoreapp3.1\TextGame2.genruntimeconfig.cache
 M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Ink\story.json
-M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Ink\longstory.json
 M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\bigButton.xnb
 M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\inventorySheet.xnb
 M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\littleButton.xnb
