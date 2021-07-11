@@ -27,3 +27,16 @@ M:\VSProjects\TextGame2\obj\Debug\netcoreapp3.1\TextGame2.pdb
 M:\VSProjects\TextGame2\obj\Debug\netcoreapp3.1\TextGame2.genruntimeconfig.cache
 M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Ink\story.json
 M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Ink\longstory.json
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\bigButton.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\inventorySheet.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\littleButton.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\uiSheet.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\xButton.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\credits.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\map.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\title.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\credits.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\map.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\title.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\Sprites\catIcon.xnb
+M:\VSProjects\TextGame2\bin\Debug\netcoreapp3.1\Content\catIcon.xnb

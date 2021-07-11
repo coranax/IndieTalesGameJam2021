@@ -4,11 +4,27 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>M:/VSProjects/TextGame2/Content/button.png</File>
     <File>M:/VSProjects/TextGame2/Content/File.spritefont</File>
+    <File>M:/VSProjects/TextGame2/Content/Sprites/bigButton.png</File>
+    <File>M:/VSProjects/TextGame2/Content/Sprites/catIcon.png</File>
+    <File>M:/VSProjects/TextGame2/Content/Sprites/credits.png</File>
+    <File>M:/VSProjects/TextGame2/Content/Sprites/inventorySheet.png</File>
+    <File>M:/VSProjects/TextGame2/Content/Sprites/littleButton.png</File>
+    <File>M:/VSProjects/TextGame2/Content/Sprites/map.png</File>
+    <File>M:/VSProjects/TextGame2/Content/Sprites/title.png</File>
+    <File>M:/VSProjects/TextGame2/Content/Sprites/uiSheet.png</File>
+    <File>M:/VSProjects/TextGame2/Content/Sprites/xButton.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
     <File>font.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

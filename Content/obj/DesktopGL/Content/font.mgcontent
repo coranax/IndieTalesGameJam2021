@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>M:/VSProjects/TextGame2/Content/File.spritefont</SourceFile>
-  <SourceTime>2021-07-10T01:03:58.6199474-04:00</SourceTime>
+  <SourceTime>2021-07-10T22:49:54.4852184-04:00</SourceTime>
   <DestFile>M:/VSProjects/TextGame2/Content/bin/DesktopGL/Content/font.xnb</DestFile>
-  <DestTime>2021-07-10T01:03:59.7933997-04:00</DestTime>
+  <DestTime>2021-07-10T22:52:13.81101-04:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54-04:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
